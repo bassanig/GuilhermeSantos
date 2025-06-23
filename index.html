@@ -1,0 +1,39 @@
+
+<!DOCTYPE h tml>
+<html lang="en">
+ 
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>VR</title>
+  <script src="https://aframe.io/releases/1.7.0/aframe.min.js"></script>
+</head>
+ 
+<body>
+ 
+  <a-scene>
+    <a-assets>
+      <!-- repositória -->
+      <img id="terra-t" src="./img/pexels-jose-mieres-120847-3699812.jpg">
+ 
+      <img id="lua-t" src="./img/10679581.jpg">
+ 
+      <img id="ceu-t" src="./img/pexels-kindelmedia-7527862.jpg">
+    </a-assets>
+    <a-sphere src="#terra-t" position="-4 0 1" radius="2" scale=""></a-sphere>
+ 
+    <a-sphere src="#terra-t" position="-8.5 0 1" radius="2" scale="0.5 0.5 0.5"></a-sphere>
+
+      <a-sphere src="#terra-t" position= "1.5 0 1" radius="2" scale="0.5 0.5 0.5"></a-sphere>
+         <a-sky src="#ceu-t"></a-sky>
+ 
+    <!-- pode adicionar evento ao adicionar o cursor -->
+    <!-- <a-camera position="0 1.6 0">
+      <a-cursor></a-cursor>
+    </a-camera> -->
+  </a-scene>
+</body>
+ 
+</html>
+ 
+ 
